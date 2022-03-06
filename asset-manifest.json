@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reactify/static/css/main.1e5b04be.css",
-    "main.js": "/reactify/static/js/main.15d9e212.js",
+    "main.js": "/reactify/static/js/main.6ea5b9e7.js",
     "index.html": "/reactify/index.html",
     "main.1e5b04be.css.map": "/reactify/static/css/main.1e5b04be.css.map",
-    "main.15d9e212.js.map": "/reactify/static/js/main.15d9e212.js.map"
+    "main.6ea5b9e7.js.map": "/reactify/static/js/main.6ea5b9e7.js.map"
   },
   "entrypoints": [
     "static/css/main.1e5b04be.css",
-    "static/js/main.15d9e212.js"
+    "static/js/main.6ea5b9e7.js"
   ]
 }
