@@ -15,9 +15,7 @@ import {
 } from 'reactstrap';
 
 const NavbarPrin = (props) => {
-    const {isOpen, setIsOpen} = useState(false);
-
-    const toogle = () => setIsOpen(!isOpen);
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <div>
@@ -29,7 +27,7 @@ const NavbarPrin = (props) => {
                 <NavbarBrand href="/">
                 Bienvenido
                 </NavbarBrand>
-                <NavbarToggler onClick={toogle} />
+                <NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
                 <Collapse isOpen={isOpen} navbar>
                 <Nav
                     className="ms-auto"
